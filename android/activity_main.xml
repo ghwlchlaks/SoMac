@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ghwlc.text.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/btn1_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="소주 3 : 맥주 7 (황금 비율)"
+
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn1_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="소주 2 : 맥주 8"
+
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/btn1_7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="소주 2 : 맥주 1 (우정주)"
+            android:layout_weight="1"
+
+
+            />
+
+        <Button
+            android:id="@+id/btn1_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="소주 1 : 맥주 0"
+
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn1_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:text="소주 0 : 맥주 1" />
+
+        <Button
+            android:id="@+id/btn1_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:text="소주 1 :맥주 9" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+
+        >
+        <Button
+            android:id="@+id/btn1_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="소주 1 : 맥주 1" />
+        <Button
+            android:id="@+id/search_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="블루투스 페어링"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
